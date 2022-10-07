@@ -1,0 +1,976 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "03ab7ac6-4679-11ed-94b6-00248c528cf7",
+    "deck_config_uuid": "03aba1f4-4679-11ed-bd28-00248c528cf7",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "03aba1f4-4679-11ed-bd28-00248c528cf7",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 40
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "AI Safety",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Aligned AI (2022)",
+                "<div><div><span><span><span><a href=\"https://forum.effectivealtruism.org/posts/emKDqNjyE2h22MJ2T/we-re-aligned-ai-we-re-aiming-to-align-ai\"><u>Aligned AI</u></a></span></span></span>&nbsp;/ Stuart Armstrong</div></div><div><span><span><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/k54rgSg7GcjtXnMHX/model-splintering-moving-from-one-imperfect-model-to-another-1\"><u>Model splintering</u></a></span></span> <br></div><div>Stuart's plan to solve this problem is as follows:<ol><li>Maintain a set of all possible extrapolations of reward data that are consistent with the training process</li><li>Pick among these for a safe reward extrapolation.&nbsp;</li></ol><p>They are currently working on algorithms to accomplish step 1: see <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/i8sHdLyGQeBTGwTqq/value-extrapolation-concept-extrapolation-model-splintering\"><u>Value Extrapolation</u></a></span></span>. <br></p><p><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></p></div>"
+            ],
+            "guid": "zrlUU03yJg",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Model Splintering?<br>",
+                "\"this approach seems safe in this imperfect model, but when we generalize the model more, it becomes dangerously underdefined\"<div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\"><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/k54rgSg7GcjtXnMHX/model-splintering-moving-from-one-imperfect-model-to-another-1\">Model splintering</a></span></span></a></div>"
+            ],
+            "guid": "jOJTafx/ag",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Alignment Research Center (ARC) (2022)",
+                "<div><div><span><span><span><a href=\"https://alignment.org/\"><u>Alignment Research Center (ARC)</u></a></span></span></span><span><span><span><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span><a href=\"https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit\"><u>Eliciting Latent Knowledge</u></a></span></span></span>&nbsp;/ Paul Christiano</div><div>Working on interpretability through using a reporter to interpret and report on a predictor<span><span><span></span></span></span><span><span><br></span></span></div><div><span><span><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/e3j7h4mPHvkRynbco/help-arc-evaluate-capabilities-of-current-language-models\"><u>Evaluating LM power-seeking</u></a></span></span>&nbsp;/ Beth Barnes</div></div>Generating a dataset that we can use to evaluate how close models are to being able to successfully seek power<div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "j|=v&f*(<&",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Eliciting Latent Knowledge?<br>",
+                "<div><span><span><span><a href=\"https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit\"><u>Eliciting Latent Knowledge (ELK)</u></a></span></span></span><span><span><span></span></span></span></div><div><br></div><div>Finding knowledge that is known to a model that it is not necessarily reporting - ARC w/ Christiano is using a reporter to report on a predictor to solve interpretability</div>"
+            ],
+            "guid": "dn66Jjd3fz",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - NAH<br>",
+                " <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/cy3BhHrGinZCp3LXE/testing-the-natural-abstraction-hypothesis-project-intro\"><u>The Natural Abstraction Hypothesis</u></a></span></span><br>"
+            ],
+            "guid": "KCC1(PzuVu",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Jan Leike (2022)<br>",
+                "<div>Employment:</div><div><span><span><span><a href=\"https://openai.com/blog/our-approach-to-alignment-research/\"><u>OpenAI</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>minimum viable product <a href=\"https://aligned.substack.com/p/alignment-mvp\"><u>aligned AGI</u></a></span></span></span></div><div><span><span><span>Interpretability - neuron monosemanticity<br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span><a href=\"https://ai-alignment.com/the-informed-oversight-problem-1b51b4f66b35\"><u>the informed oversight problem</u></a></span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "AL&vhu53_q",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Anthropic (2022)",
+                "<div><span><span><span><a href=\"https://www.anthropic.com/\"><u>Anthropic</u></a></span></span></span> </div><div><br></div><div>LLM Alignment</div><div>Fine tuning a LM to be more <span><span><span><a href=\"https://arxiv.org/abs/2112.00861\"><u>Helpful, Honest, and Harmless (HHH)</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div>Interpretability (Chris Olah)</div><div>Decompiling networks into better representations that is more interpretable, by increasing neuron monosemanticity (making a neuron represent only one thing, as opposed to firing on many unrelated concepts)</div><div><br></div><div>Scaling Laws</div><div>Model performance scaling to predict how future AI might look</div><div><i>data + params + compute = performance</i></div><div>Increasing <span><span><span><a href=\"https://arxiv.org/abs/2001.08361\"><u>data, parameters, and compute all at the same time</u></a></span></span></span><br></div><div><i><br></i></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "OmKL~4c^h2",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Brain-Like-AGI Safety (2022)",
+                "<span><span><a class=\"SequencePreview-link\" id=\"HzcM2dkCq7fwXBej8\" href=\"https://www.lesswrong.com/s/HzcM2dkCq7fwXBej8\"><u>Brain-Like-AGI Safety<br></u></a></span></span><div>Steven Byrnes</div><div><br></div><div>How would we align an AGI whose learning algorithms / cognition look like human brains?</div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "lIsT{sk9KZ",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is X Risk?<br>",
+                "Existential Risk - risk of an extermination-level event for humans or sentient life<br>"
+            ],
+            "guid": "NF`DF5;Q(*",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is S Risk?<br>",
+                "Suffering Risk (the risk that the future holds extreme levels of suffering)<br>"
+            ],
+            "guid": "FpSa9yK`B*",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Center for AI Safety (CAIS) (2022)",
+                "<div><span><span><span><a href=\"https://safe.ai/\"><u>Center for AI Safety</u></a></span></span></span>&nbsp;(CAIS)</div><div>Dan Hendrycks</div><div><br></div><p>CAIS is working on a number of projects, including:</p><ul><li>Writing papers that <span><span><span><a href=\"https://arxiv.org/abs/2206.05862\"><u>talk about x-risk</u></a></span></span></span>.</li><li>Publishing compilations of <span><span><span><a href=\"https://arxiv.org/abs/2109.13916\"><u>open problems</u></a></span></span></span>.</li><li>Make safety benchmarks that the ML community can iterate on.</li><li>Running a <span><span><span><a href=\"https://safe.ai/competitions\"><u>NeurIPS competition</u></a></span></span></span>&nbsp;on these benchmarks.</li><li>Running the ML Safety Scholars program (<span><a>MLSS</a></span>)</li><li>A <span><span><span><a href=\"https://philosophy.safe.ai/\">Philosophy Fellowship</a></span></span></span> aimed at recruiting philosophers to do conceptual alignment research.&nbsp;</li></ul>Trojan detection<br><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "y=6:m#q6>i",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Cooperative Inverse Reinforcement Learning?<br>",
+                "<div><span><span><span><a href=\"https://arxiv.org/abs/1606.03137\"><u>CIRL</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div>A cooperative, partial-information game with two agents, human and robot; both\nare rewarded according to the human's reward function, but the robot does not\ninitially know what this is</div><div>Induces active learning and foregoes the assumption that the human acts perfectly to maximize its reward at all timesteps.</div>"
+            ],
+            "guid": "qQ^1y~}~Kc",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Center for Human Compatible AI (CHAI) (2022)",
+                "<div><span><span><span><a href=\"https://humancompatible.ai/\"><u>Center for Human Compatible AI (CHAI)</u></a></span></span></span><br></div><div>Stuart Russell - UC Berkeley<br></div><div><br></div><div>Cooperative Inverse Reinforcement Learning (CIRL)</div><div>Clusterability in Neural Networks - Modularity</div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "kU9,Q+o7P~",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Agenda - Center on Long Term Risk (CLR) (2022)</div>",
+                "<div><div><span><span><span><a href=\"https://longtermrisk.org/files/Cooperation-Conflict-and-Transformative-Artificial-Intelligence-A-Research-Agenda.pdf\"><u>Center on Long Term Risk (CLR)</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div></div><div>Reducing S-Risk<span><span><span><br></span></span></span></div>Game theory / Decision Theory<div>Multipolar AI scenarios</div><div>Works with <span><span><span><a href=\"https://www.cooperativeai.com/foundation\">The Cooperative AI Foundation (<u>CAIF)</u></a></span></span></span><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div><a href=\"https://www.cooperativeai.com/foundation\"></a></div>"
+            ],
+            "guid": "Pak+8j2ThA",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Conjecture (2022)",
+                "<div><div><span><span><span><a href=\"https://www.conjecture.dev/\"><u>Conjecture's website</u></a></span></span></span> <br></div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/jfq2BH5kfQqu2vYv3/we-are-conjecture-a-new-alignment-research-startup#Our_Research_Agenda\"><u>Who is Conjecture?</u></a><br></span></span></div><div><br></div><div>focused on aligning LLMs</div><div>has short timelines &amp; alignment is hard</div><div>averse to infohazards</div><div>Scalable LLM Interpretability<span><span><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/D7epkkJb3CqDTYgX9/refine-an-incubator-for-conceptual-alignment-research-bets\"><u>Refine</u></a></span></span>: incubator for decorrelated alignment research bets</div><div>Simulacra Theory - making a non-agentic AI to help with alignment research<br><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "As=hbQ0~D(",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about David Krueger (2022)<br>",
+                "<div>Employment:</div><div>University of Cambridge</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>Runs a lab at University of Cambridge<br></span></span></span></div><div><span><span><span>Inner Alignment - operationalizing inner alignment failures</span></span></span> <span><span><span><a href=\"https://arxiv.org/abs/2105.14111\"><u>Goal Misgeneralization</u></a></span></span></span></div><div><span><span><span>Neural network generalization </span></span></span><span><span><span><a href=\"http://proceedings.mlr.press/v139/krueger21a.html\"><u>OOD Generalization via Risk Extrapolation</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "g0SCaYlLxK",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - DeepMind (2022)",
+                "<div><div><span><span><span><a href=\"https://www.deepmind.com/\"><u>DeepMind</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div></div><div>has ML safety team focused on near-term risks<span><span><span><br></span></span></span></div>has Alignment team working on AGI risks<div><p>Some of the work they are doing is:&nbsp;</p><ul><li><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/qJgz2YapqpFEDTLKn/deepmind-alignment-team-opinions-on-agi-ruin-arguments\"><u>Engaging with recent MIRI arguments</u></a></span></span>.&nbsp;</li><li>Rohin Shah produces the <span><span><span><a href=\"https://rohinshah.com/alignment-newsletter/\"><u>alignment newsletter</u></a></span></span></span>.</li><li>Publishing interesting research like the <span><span><span><a href=\"https://arxiv.org/abs/2105.14111\"><u>Goal Misgeneralization paper</u></a></span></span></span>.&nbsp;</li><li>Geoffrey Irving is working on debate as an alignment strategy: more <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/bLr68nrLSwgzqLpzu/axrp-episode-16-preparing-for-debate-ai-with-geoffrey-irving\"><u>detail here</u></a></span></span>.</li><li><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/XxX2CAoFskuQNkBDy/discovering-agents\">Discovering agents</a></span></span>, which introduces a causal definition of agents, then introduces an algorithm for finding agents from empirical data.&nbsp;</li></ul><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">Source</a></div>"
+            ],
+            "guid": "Ce[@v@3(Z.",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Dylan Hadfield-Menell (2022)<br>",
+                "<div><div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"http://people.csail.mit.edu/dhm/\"><u>Dylan Hadfield-Menell</u></a></span></span></span></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span><a href=\"https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-207.pdf\"><u>Dylan's PhD thesis</u></a></span></span></span></div><div><ol><li>Outer alignment failures are a problem.</li><li>We can mitigate this problem by adding in uncertainty.</li><li>We can model this as&nbsp;<span><span><span><a href=\"https://proceedings.neurips.cc/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html\"><u>Cooperative Inverse Reinforcement Learning (CIRL)</u></a></span></span></span>.&nbsp; <br></li></ol><span><span><span></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div></div>"
+            ],
+            "guid": "dQ[l&u*NH^",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Encultured (2022)<br>",
+                "<span><span><span><a href=\"https://www.encultured.ai/\"><u>Encultured</u></a></span></span></span><div><p>See <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/ALkH4o53ofm862vxc/announcing-encultured-ai-building-a-video-game\"><u>post</u></a></span></span>.</p><p>Andrew Critch<br></p></div><div>multiplayer video games as test environment for AI</div><div>concerned about multipolar AI scenarios<br><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "*V=Kn^pjs",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Externalized Reasoning Oversight (2022)<br>",
+                "<div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/FRRb6Gqem8k69ocbi/externalized-reasoning-oversight-a-research-direction-for\"><u>Externalized Reasoning Oversight</u></a><br></span></span></div><div><div>Tamera Lanham<span><span><br></span></span></div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/FRRb6Gqem8k69ocbi/externalized-reasoning-oversight-a-research-direction-for\"><u></u></a></span></span></div><div><br></div><div>Make an AGI as an LLM externalize its reasoning<br><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "j|85-kakIJ",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Future of Humanity Institute (FHI) (2022)<br>",
+                "<div><span><span><span><a href=\"https://www.fhi.ox.ac.uk/\"><u>Future of Humanity Institute</u></a></span></span></span><br></div><div><br></div><div>the <span><span><span><a href=\"https://www.fhi.ox.ac.uk/causal-incentives-working-group/\"><u>Causal incentives group</u></a></span></span></span> (joint between FHI and DeepMind)</div><div>reward tampering<br><div><br><ul><li><span><span><span><a href=\"https://arxiv.org/abs/2102.01685\">Agent Incentives: A Causal Perspective</a></span></span></span>, a paper which formalizes concepts such as the value of information and control incentives.&nbsp;</li><li><span><span><span><a href=\"https://arxiv.org/abs/1908.04734\">Reward tampering problems and solutions in reinforcement learning: A causal influence diagram perspective</a></span></span></span>, a paper which theoretically analyzes wireheading.&nbsp;</li></ul></div><div> </div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "J]Nq,etaN/",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Fund For Alignment Research (FAR) (2022)<br>",
+                "<div><div><span><span><span><a href=\"https://alignmentfund.org/\">Fund For Alignment Research (FAR)</a><br></span></span></span></div><div><span><span><span><br></span></span></span></div></div><div>create new and scalable alignment agendas<span><span><span><br></span></span></span></div>RLHF and interpretability<div>search broadly and double down on promising approaches</div><div>The <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/eqxqgFxymP8hXDTt5/announcing-the-inverse-scaling-prize-usd250k-prize-pool#:~:text=TL%3BDR%3A%20We're,(%E2%80%9Cinverse%20scaling%E2%80%9D).\">inverse scaling law</a></span></span> prize.<div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "fNP(]h,o8",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Machine Intelligence Research Institute (MIRI) (2022)<br>",
+                "<div><span><span><span><a href=\"https://intelligence.org/\"><u>MIRI</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pL56xPoniLvtMDQ4J/the-inner-alignment-problem\"><u>Deception + Inner Alignment</u></a></span></span>&nbsp;/ Evan Hubinger<span><span><br></span></span></div><div><span><span><a class=\"TagHoverPreview-link\" href=\"https://www.lesswrong.com/tag/agent-foundations\"><u>Agent Foundations</u></a></span></span>&nbsp;/ Scott Garrabrant and Abram Demski<span><span><br></span></span></div><div><span><span><a class=\"SequencePreview-link\" id=\"CmrW8fCmSLK7E25sa\" href=\"https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa\"><u>Infra-Bayesianism</u></a></span></span>&nbsp;/ Vanessa Koso<span><span>y<br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/zRn6cLtxyNodudzhw/visible-thoughts-project-and-bounty-announcement\"><u>Visible Thoughts Project</u></a><br></span></span></div><div><span><span><br></span></span></div><div>Alignment is really hard</div><div>We must provide a mathematically formal solution if we want to succeed in alignment<div><br></div><div>(INCOMPLETE)<br></div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "J.oTOogW3X",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Deception + Inner Alignment (in MIRI) (2022)",
+                "<div>Evan Hubinger</div><div><br></div><div>Deceptive agents are the default</div><div>Possible solution is to make sure agents are <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/LCLBnmwdxkkz5fNvH/open-problems-with-myopia\"><u>myopic</u></a></span></span> - “return the action that your model of <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/NXqs4nYXaq8q6dTTx/humans-consulting-hch\">HCH</a></span></span> would return, if it received your inputs.”<span><span></span></span><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/LCLBnmwdxkkz5fNvH/open-problems-with-myopia\"></a></div>"
+            ],
+            "guid": "HE}N!UM`mC",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Human Consulting Human (HCH)?",
+                " <div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/NXqs4nYXaq8q6dTTx/humans-consulting-hch\">HCH</a> - Human Consulting Human</span></span></div><div><span><span><br></span></span></div><div><p>Consider a human Hugh who has access to a question-answering machine.\n Suppose the machine answers question Q by perfectly imitating how Hugh \nwould answer question Q, <em>if</em> <em>Hugh had access to the question-answering machine</em>.</p><p>That is, Hugh is able to consult a copy of Hugh, who is able to consult a copy of Hugh, who is able to consult a copy of Hugh…</p></div><div><span><span></span></span></div>"
+            ],
+            "guid": "A3%O5F=<L%",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Agent Foundations (in MIRI) (2022)",
+                "<div>Scott Garrabrant &amp; Abram Demski</div><div><br></div><div>They are working on fundamental problems like <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version\"><u>embeddedness, decision theory, logical counterfactuals</u></a></span></span>, and more. <br></div><div>A big advance was <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/BSpdshJWGAW6TuNzZ/introduction-to-cartesian-frames\"><u>Cartesian Frames</u></a></span></span>, a formal model of agency.</div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "I=717Oq=f<",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is The Informed Oversight Problem?<br>",
+                "<div><span><span><span><a href=\"https://ai-alignment.com/the-informed-oversight-problem-1b51b4f66b35\"><u>the informed oversight problem</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div>"
+            ],
+            "guid": "IfGX>K*_R#",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Infra-Bayesianism (in MIRI) (2022)<br>",
+                "<div><div><span><span><a class=\"SequencePreview-link\" id=\"CmrW8fCmSLK7E25sa\" href=\"https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa\"><u>Infra-Bayesianism</u></a></span></span></div></div><div>Vanessa Kosoy<span><span><br></span></span></div><div>Vanessa's<span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/5bd75cc58225bf0670375575/the-learning-theoretic-ai-alignment-research-agenda\"> research agenda</a></span></span></div><div><span><span><br></span></span></div>approach alignment from a mathematically formal position:<ol><li>Find all of the agents that preceded the AI</li><li>Discard all of these agents that are powerful / non-human like</li><li>Find all of the utility functions in the remaining agents</li><li>Use combination of all of these utilities as the agent's utility function</li></ol><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div>"
+            ],
+            "guid": "AXF9Eb-1Q|",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Visible Thoughts Project (in MIRI) (2022)",
+                "<div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/zRn6cLtxyNodudzhw/visible-thoughts-project-and-bounty-announcement\"><u>Visible Thoughts Project</u></a></span></span></div><div><br></div><div>Train a LLM to make it show what characters are thinking - hopefully making its own reasoning interpretable<br></div><div><br></div><div>https://www.lesswrong.com/posts/zRn6cLtxyNodudzhw/visible-thoughts-project-and-bounty-announcement</div><div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "eG>8~xoyhF",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Jacob Steinhardt (2022)<br>",
+                "<div><div>Employment:</div><div>UC Berkeley</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><div>robustness &amp; distribution shift</div><div>technical paper he wrote is&nbsp;<span><span><span><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=LKv32bgAAAAJ&amp;citation_for_view=LKv32bgAAAAJ:4TOpqqG69KYC\"><u>Certified defenses against adversarial examples</u></a><br></span></span></span></div>He's published several technical overviews including&nbsp;<span><span><span><a href=\"https://docs.google.com/document/d/1FbTuRvC4TFWzGYerTKpBU7FJlyvjeOvVYF2uYNFSlOc/edit#\"><u>AI Alignment Research Overview</u></a></span></span></span> and&nbsp;<span><span><span><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=LKv32bgAAAAJ&amp;citation_for_view=LKv32bgAAAAJ:kNdYIx-mwKoC\"><u>Concrete problems in AI safety</u></a></span></span></span>, and created an&nbsp;<span><span><span><a href=\"https://bounded-regret.ghost.io/ai-forecasting/\"><u>AI forecasting competition</u></a></span></span></span>. </div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><br><span><span><span></span></span></span></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "K!{dP&z>&J",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Reinforcement Learning from Human Feedback (RLHF)?",
+                "<div>Reinforcement Learning from Human Feedback</div><div>INCOMPLETE</div>"
+            ],
+            "guid": "Lgo+YXF(Be",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - OpenAI (2022)<br>",
+                "<div><div><span><span><span><a href=\"https://openai.com/blog/our-approach-to-alignment-research/\"><u>OpenAI</u></a><br></span></span></span></div></div><div>Jan Leike<span><span><span><br></span></span></span></div><div><br></div><div>build a minimal AGI that is aligned to help us with the full alignment problem</div><div>Reinforcement Learning from Human Feedback (RLHF)</div><div><div><span><span><span><a href=\"https://ai-alignment.com/the-informed-oversight-problem-1b51b4f66b35\"><u>the informed oversight problem</u></a></span></span></span> &amp; an <span><span><span><a href=\"https://aligned.substack.com/p/ai-assisted-human-feedback\"><u>AI assisted oversight scheme</u></a></span></span></span></div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "bEHm/gIuO",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Ought (2022)<br>",
+                "<div><div><span><span><span><a href=\"https://ought.org/\"><u>Ought</u></a></span></span></span></div></div><div><br></div><div>Advancing <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pYcFPMBtQveAjcSfH/supervise-process-not-outcomes\"><u>process-based systems</u></a></span></span></div><div>Elicit - an AI research assistant<span><span><span><br></span></span></span></div>scale open-ended reasoning<div>process-based rather than outcome-based</div><div>improving reasoning will help with alignment<br><div><br></div><div>Ought’s impact on AI alignment has 2 components: (a) improved reasoning of AI governance &amp; alignment researchers, <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pYcFPMBtQveAjcSfH/supervise-process-not-outcomes#Differential_capabilities__Supervising_process_helps_with_long_horizon_tasks\"><u>particularly on long-horizon tasks</u></a></span></span>&nbsp;and (b) <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pYcFPMBtQveAjcSfH/supervise-process-not-outcomes#Alignment__Supervising_process_is_safety_by_construction\"><u>pushing supervision of process rather than outcomes</u></a></span></span>, which reduces the optimization pressure on imperfect proxy objectives leading to “safety by construction”. </div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "O3wN/g?mZL",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Redwood Research (2022)<br>",
+                "<div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/k7oxdbNaGATZbtEg3/redwood-research-s-current-project\"><u>Adversarial training</u></a> - the plan if we had to align AGI right now<br></span></span></div><div>Addressing nearest term AGI conception: create extremely reliable AI where it will never engage in certain types of behavior<span><span><span><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span><a href=\"https://youtu.be/PDvAutARum4?t=1440\">LLM interpretability</a> - </span></span></span> <span><span><span><a href=\"http://interp-tools.redwoodresearch.org/#/?interpsite=%7B%22whichModel%22%3A%22attention_only_two_layers%22%2C%22prompt%22%3A%22Welcome+to+the+Redwood+Interpretability+Website%21+Click+%5C%22How+to+Use%5C%22+for+documentation.+If+you+have+feedback%2C+add+comments+to+the+doc+or+contact+tao+at+rdwrs+dot+com.+The+Redwood+Interpretability+team+wishes+you+the+best+in+your+interpretability+endeavors%21%22%2C%22nonce%22%3A1%2C%22allNonce%22%3A8%2C%22whichAttributionUI%22%3A%22tree%22%2C%22diagramsUI%22%3A%7B%22attributionSource%22%3A%7B%22kind%22%3A%22logprob%22%2C%22data%22%3A%7B%22seqIdx%22%3A5%2C%22tokString%22%3A%22+red%22%2C%22comparisonTokString%22%3Anull%7D%7D%7D%2C%22indirectUI%22%3A%7B%22maskSchema%22%3A%22true%22%2C%22lossToken%22%3A%22+the%22%2C%22lossComparisonToken%22%3Anull%2C%22seqPos%22%3A%22-2%22%2C%22lossFnKind%22%3A%22logit%22%7D%2C%22showComposable%22%3Atrue%2C%22showAttribution%22%3Atrue%2C%22showDiagrams%22%3Afalse%2C%22showIndirect%22%3Afalse%2C%22composableUI%22%3A%7B%22lvntDims%22%3A%5B%5B57%2C57%5D%2C%5B57%2C490%5D%2C%5B2%2C8%2C57%2C57%5D%2C%5B512%2C256%5D%2C%5B57%2C57%5D%2C%5B2%2C50258%2C256%5D%2C%5B2%2C8%2C57%2C256%5D%2C%5B2%2C1%2C57%2C256%5D%2C%5B2%2C2%2C57%2C57%5D%2C%5B2%2C8%2C57%2C57%5D%2C%5B2%2C8%2C2%2C57%2C32%5D%2C%5B57%5D%2C%5B2%2C8%2C57%2C57%5D%2C%5B2%2C8%2C57%2C57%5D%2C%5B4%2C2%2C8%2C32%2C256%5D%5D%2C%22nonce%22%3A1%2C%22panels%22%3A%5B%7B%22vizName%22%3A%22TextAverageTo%22%2C%22spec%22%3A%5B%22axis%22%2C%22axis%22%5D%2C%22focus%22%3A%5Bnull%2Cnull%5D%2C%22options%22%3A%7B%7D%2C%22lvntIdx%22%3A0%2C%22hover%22%3A%5Bnull%2Cnull%5D%2C%22hideConfig%22%3Afalse%2C%22axisPermutationToShow%22%3A%5B0%2C1%5D%2C%22lvntOptions%22%3A%7B%22QKV%22%3A0%2C%22Attention+Probs%22%3A0%2C%22MLPs%22%3A0%7D%7D%5D%7D%2C%22attributionUI%22%3A%7B%22tree%22%3A%5B%5D%2C%22root%22%3A%7B%22kind%22%3A%22logprob%22%2C%22threshold%22%3A0.1%2C%22data%22%3A%7B%22seqIdx%22%3A55%2C%22tokString%22%3A%22%21%22%2C%22comparisonTokString%22%3Anull%7D%7D%2C%22lineWidthScale%22%3A1%2C%22useIGAttn%22%3Afalse%2C%22useIGOutput%22%3Atrue%2C%22showNegative%22%3Atrue%2C%22useActivationVsMean%22%3Afalse%2C%22fuseNeurons%22%3Atrue%2C%22fakeMlp%22%3A%22none%22%2C%22threshold%22%3A0.1%2C%22specificLogits%22%3A%5B%5D%2C%22modelName%22%3A%22attention_only_two_layers%22%2C%22nonce%22%3A0%2C%22toks%22%3A%5B%22%5BBEGIN%5D%22%2C%22+Welcome%22%2C%22+to%22%2C%22+the%22%2C%22+Red%22%2C%22wood%22%2C%22+Interpret%22%2C%22ability%22%2C%22+Website%22%2C%22%21%22%2C%22+Click%22%2C%22+%5C%22%22%2C%22How%22%2C%22+to%22%2C%22+Use%22%2C%22%5C%22%22%2C%22+for%22%2C%22+documentation%22%2C%22.%22%2C%22+If%22%2C%22+you%22%2C%22+have%22%2C%22+feedback%22%2C%22%2C%22%2C%22+add%22%2C%22+comments%22%2C%22+to%22%2C%22+the%22%2C%22+doc%22%2C%22+or%22%2C%22+contact%22%2C%22+t%22%2C%22ao%22%2C%22+at%22%2C%22+r%22%2C%22d%22%2C%22w%22%2C%22rs%22%2C%22+dot%22%2C%22+com%22%2C%22.%22%2C%22+The%22%2C%22+Red%22%2C%22wood%22%2C%22+Interpret%22%2C%22ability%22%2C%22+team%22%2C%22+wishes%22%2C%22+you%22%2C%22+the%22%2C%22+best%22%2C%22+in%22%2C%22+your%22%2C%22+interpret%22%2C%22ability%22%2C%22+endeavors%22%2C%22%21%22%5D%2C%22onlyOV%22%3Afalse%7D%7D\">website for visualizing transformers</a></span></span></span></div><div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "bN-$e}QQr&",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Sam Bowman (2022)<br>",
+                "<div><div>Employment:<span><span><span><br></span></span></span></div><div><span><span><span><a href=\"https://www.anthropic.com/\"><u>Anthropic</u></a></span></span></span> (temporarily)<br></div><div>Sam runs a lab at NYU</div><br><div><span><span><span>Working on:</span></span></span><span><span><span><br></span></span></span></div><div><span><span><span><a href=\"https://cims.nyu.edu/~sbowman/\"><u>His agenda <br></u></a></span></span></span></div><div>language model alignment by&nbsp;<span><span><span><a href=\"https://arxiv.org/abs/2110.08193\"><u>creating</u></a></span></span></span>&nbsp;<span><span><span><a href=\"https://arxiv.org/abs/2206.04615\"><u>datasets</u></a></span></span></span> for evaluating language models</div><div>inductive biases of LLMs</div><div>running&nbsp;<span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/eqxqgFxymP8hXDTt5/announcing-the-inverse-scaling-prize-usd250k-prize-pool#:~:text=TL%3BDR%3A%20We're,(%E2%80%9Cinverse%20scaling%E2%80%9D).\"><u>the inverse scaling prize</u></a></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span></span></span></span><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "b9M)r?vb,e",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Selection Theorems (2022)<br>",
+                "<div>John Wentworth</div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/G2Lne2Fi7Qra5Lbuf/selection-theorems-a-program-for-understanding-agents\"><u>selection theorems</u></a></span></span>: try to figure out what types of agents are selected for in a broad range of environments</div><div>Two key properties that might be selected for are modularity and abstractions<div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+            ],
+            "guid": "n+p.l6X[tR",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Natural Abstractions Hypothesis?<br>",
+                "<div> <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/cy3BhHrGinZCp3LXE/testing-the-natural-abstraction-hypothesis-project-intro\"><u>The Natural Abstraction Hypothesis</u></a></span></span>&nbsp;(NAH)</div><div><br></div><div> a wide variety of cognitive architectures will tend to use similar abstractions to reason about the world</div>"
+            ],
+            "guid": "H84,`/L(a^",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Team Shard (2022)<br>",
+                "<div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/xqkGmfikqapbJ2YMj/shard-theory-an-overview\"><u>Team Shard</u></a></span></span></div> <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target\"><u></u></a></span></span></div><div><br></div><div>make an AI that imitates that circuitry in human brains<span><span><br></span></span></div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target\"><u>Reward is not the optimization target</u></a></span></span><div><div><br></div><div>INCOMPLETE<br></div><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target\"></a></div>"
+            ],
+            "guid": "$|&D%%BWk",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agenda - Truthful AI (2022)<br>",
+                "<div><div><span><span><span><a href=\"https://truthful.ai/\"><u>Truthful AI</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div></div><div>Owain Evans / Owen Cotton-Barratt<span><span><span><br></span></span></span></div>stop models from lying<div> <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/jWkqACmDes6SoAiyE/truthful-lms-as-a-warm-up-for-aligned-agi\"><u>Truthful LMs as a warm-up for aligned AGI</u></a></span></span>&nbsp;and <span><span><span><a href=\"https://arxiv.org/abs/2109.07958\"><u>TruthfulQA: Measuring How Models Mimic Human Falsehoods</u></a></span></span></span><div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div><a href=\"https://arxiv.org/abs/2109.07958\"></a></div>"
+            ],
+            "guid": "m<^9?3|g<B",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "agenda"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Chris Olah (2022)",
+                "<div>Employment:</div><div><span><span><span><a href=\"https://www.anthropic.com/\"><u>Anthropic</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>Interpretability - neuron monosemanticity<br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>(needs source)<br></span></span></span></div>"
+            ],
+            "guid": "][YI*r-Na",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Paul Christiano (2022)",
+                "<div>Employment:</div><div><div><span><span><span><a href=\"https://alignment.org/\"><u>Alignment Research Center (ARC)</u></a></span></span></span><span><span><span><br></span></span></span></div><a href=\"https://www.anthropic.com/\"></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>Interpretability - </span></span></span><span><span><span><a href=\"https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit\"><u>Eliciting Latent Knowledge</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "nLg*sh_Gav",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Beth Barnes (2022)<br>",
+                "<div>Employment (2022):</div><div><div><span><span><span><a href=\"https://alignment.org/\"><u>Alignment Research Center (ARC)</u></a></span></span></span><span><span><span><br></span></span></span></div><a href=\"https://www.anthropic.com/\"></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/e3j7h4mPHvkRynbco/help-arc-evaluate-capabilities-of-current-language-models\"><u>Evaluating LM power-seeking</u></a></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "q+v}210S3(",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - CIRL<br>",
+                "<span><span><span><a href=\"https://arxiv.org/abs/1606.03137\"><u>Cooperative Inverse Reinforcement Learning</u></a></span></span></span>"
+            ],
+            "guid": "CwgQQ{4VpJ",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Dan Hendrycks (2022)<br>",
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"https://safe.ai/\"><u>Center for AI Safety</u></a></span></span></span>&nbsp;(CAIS)</a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>- broadening AI safety community<br></span></span></span></div><div><span><span><span>- Trojan Detection</span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "g{8r?@(pVk",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Stuart Russell (2022)<br>",
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"https://humancompatible.ai/\"><u>Center for Human Compatible AI (CHAI)</u></a></span></span></span></a></div><span><span><span>UC Berkeley</span></span></span><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div>Alignment - cooperative inverse reinforcement learning (<span><span><span><a href=\"https://arxiv.org/abs/1606.03137\"><u>CIRL</u></a></span></span></span>)</div><div> <span><span><span><a href=\"https://arxiv.org/abs/2103.03386\"><u>Clusterability in neural networks</u></a></span></span></span> - modularity<br></div><div><br></div><div><span><span><span>Views:</span></span></span></div><div>wrote the book <span><span><span><a href=\"https://en.wikipedia.org/wiki/Human_Compatible\"><u>Human Compatible</u></a></span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "D>Q:%#0u%V",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - CHAI<br>",
+                "<span><span><span><a href=\"https://humancompatible.ai/\"><u>Center for Human Compatible AI<br></u></a></span></span></span>"
+            ],
+            "guid": "hYRC1*ncQ-",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - CAIS<br>",
+                "<span><span><span><a href=\"https://safe.ai/\"><u>Center for AI Safety</u></a></span></span></span>"
+            ],
+            "guid": "E1lpI;OSD%",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - CLR<br>",
+                "<div><span><span><span><a href=\"https://longtermrisk.org/files/Cooperation-Conflict-and-Transformative-Artificial-Intelligence-A-Research-Agenda.pdf\"><u>Center on Long Term Risk<br></u></a></span></span></span></div>"
+            ],
+            "guid": "E.U:K+Qbs}",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - CAIF<br>",
+                "<span><span><span><a href=\"https://www.cooperativeai.com/foundation\">The Cooperative AI Foundation<br></a></span></span></span>"
+            ],
+            "guid": "PE,5(3XN&M",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - LLM<br>",
+                "<div>Large Language Model</div><div>(alternative - Logic Learning Machine)<br></div>"
+            ],
+            "guid": "fO?8^+nV>f",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - ARC<br>",
+                "<div><span><span><span><a href=\"https://alignment.org/\"><u>Alignment Research Center</u></a></span></span></span><span><span><span><br></span></span></span></div>"
+            ],
+            "guid": "p$i+g[~<dj",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - ELK<br>",
+                "<span><span><span><a href=\"https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit\"><u>Eliciting Latent Knowledge</u></a></span></span></span>"
+            ],
+            "guid": "zd,4xl,_r5",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - HHH<br>",
+                "<span><span><span><a href=\"https://arxiv.org/abs/2112.00861\"><u>Helpful, Honest, and Harmless</u></a></span></span></span>"
+            ],
+            "guid": "jB1^%v3qDq",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Scott Garrabrant (2022)<br>",
+                "<div>Employment:<span><span><br></span></span></div><div><span><span><a class=\"TagHoverPreview-link\" href=\"https://www.lesswrong.com/tag/agent-foundations\"><u>Agent Foundations</u></a><u> (MIRI)<br></u></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version\"><u>embeddedness, decision theory, logical counterfactuals</u></a><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/BSpdshJWGAW6TuNzZ/introduction-to-cartesian-frames\"><u>Cartesian Frames</u></a></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "l[05vP+eY|",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Abram Demski (2022)<br>",
+                "<div>Employment:<span><span><br></span></span></div><div><span><span><a class=\"TagHoverPreview-link\" href=\"https://www.lesswrong.com/tag/agent-foundations\"><u>Agent Foundations</u></a><u> (MIRI)<br></u></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version\"><u>embeddedness, decision theory, logical counterfactuals</u></a><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/BSpdshJWGAW6TuNzZ/introduction-to-cartesian-frames\"><u>Cartesian Frames</u></a></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "kF4Yucz9kz",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Evan Hubinger (2022)<br>",
+                "<div>Employment:</div><div><span><span><span><a href=\"https://www.anthropic.com/\"><u>Anthropic</u></a><br></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span><span><span><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/pL56xPoniLvtMDQ4J/the-inner-alignment-problem\"><u>Deception + Inner Alignment</u></a><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/GeabLEXYP7oBMivmF/acceptability-verification-a-research-agenda\"><u>Evan's research agenda</u></a></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span><a href=\"https://www.google.com/url?q=https://docs.google.com/presentation/d/1IzmmUSvhjeGhc_nc8Wd7-hB9_rSeES8JvEvKzQ8uHBI/edit?usp%3Ddrivesdk&amp;sa=D&amp;source=editors&amp;ust=1661633213188468&amp;usg=AOvVaw1-ALhgrpPnw_4Y0uRozVl_\"><u>Deceptive agents are the default</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "QN0d~Ot9Z:",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Rohin Shah (2022)<br>",
+                "<div>Employment:</div><div><div><span><span><span><a href=\"https://www.deepmind.com/\"><u>DeepMind</u></a></span></span></span></div><a href=\"https://www.anthropic.com/\"></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div>produces the <span><span><span><a href=\"https://rohinshah.com/alignment-newsletter/\"><u>alignment newsletter</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "fccY2Ph3<e",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - IBP<br>",
+                "<span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/gHgs2e2J5azvGFatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized\"><u>Infra-Bayesian Physicalism</u></a></span></span>"
+            ],
+            "guid": "BytPdJ{6KZ",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Vanessa Kosoy (2022)<br>",
+                "<div>Employment:<span><span><span><br></span></span></span></div><div><span><span><span><a href=\"https://intelligence.org/\"><u>MIRI</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div>Vanessa's<span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/5bd75cc58225bf0670375575/the-learning-theoretic-ai-alignment-research-agenda\"> research agenda</a><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/gHgs2e2J5azvGFatb/infra-bayesian-physicalism-a-formal-theory-of-naturalized\"><u>Infra-Bayesian Physicalism</u></a></span></span>&nbsp;(IBP)</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "u;NOM]EbU~",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - IB<br>",
+                "<span><span><a class=\"SequencePreview-link\" id=\"CmrW8fCmSLK7E25sa\" href=\"https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa\"><u>Infra-Bayesianism</u></a></span></span><br>"
+            ],
+            "guid": "AOe)&g^t&D",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Tamera Lanham (2022)<br>",
+                "<div>Employment:</div><div>INCOMPLETE</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/FRRb6Gqem8k69ocbi/externalized-reasoning-oversight-a-research-direction-for\"><u>Externalized Reasoning Oversight</u></a></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "pjI![OBYpf",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - FAR<br>",
+                "<div><span><span><span><a href=\"https://alignmentfund.org/\">Fund For Alignment Research<br></a></span></span></span></div>"
+            ],
+            "guid": "t)1u@4?@7U",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - FHI<br>",
+                "<div><span><span><span><a href=\"https://www.fhi.ox.ac.uk/\"><u>Future of Humanity Institute</u></a></span></span></span><br></div>"
+            ],
+            "guid": "kVqjY%QwU8",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - HCH<br>",
+                "<span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/NXqs4nYXaq8q6dTTx/humans-consulting-hch\">Human Consulting Human</a></span></span>"
+            ],
+            "guid": "deYUuBXsdm",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - RLHF",
+                "Reinforcement Learning from Human Feedback<br>"
+            ],
+            "guid": "cvjs075XpQ",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about John Wentworth (2022)<br>",
+                "<div>Employment:</div><div>INCOMPLETE</div><div><br></div><div><span><span><span>Working on:</span></span></span><span><span><br></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/3L46WGauGpr7nYubu/the-plan\"><u>Selection Theorems</u></a><span>:</span></span></span> try to figure out what types of agents are selected for in a broad range of environments</div><div><br></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "mKx>N7WQmk",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Owain Evens (2022)<br>",
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"https://truthful.ai/\"><u>Truthful AI</u></a></span></span></span></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/jWkqACmDes6SoAiyE/truthful-lms-as-a-warm-up-for-aligned-agi\"><u>Truthful LMs as a warm-up for aligned AGI</u></a></span></span> <br></div><div><span><span><span><a href=\"https://arxiv.org/abs/2109.07958\"><u>TruthfulQA: Measuring How Models Mimic Human Falsehoods</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "ildrxr5Jfm",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Owen Cotton-Barratt (2022)<br>",
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span></span></span></span></a><a href=\"https://truthful.ai/\"><u>Truthful AI</u></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/jWkqACmDes6SoAiyE/truthful-lms-as-a-warm-up-for-aligned-agi\"><u>Truthful LMs as a warm-up for aligned AGI</u></a></span></span> <br></div><div><span><span><span><a href=\"https://arxiv.org/abs/2109.07958\"><u>TruthfulQA: Measuring How Models Mimic Human Falsehoods</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "p**P|-<aKL",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - OOD<br>",
+                "Out of Distribution<br>"
+            ],
+            "guid": "cp][/.YC=Y",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Acronym"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Neuron Monosemanticity?<br>",
+                "Making a neuron represent only one thing, as opposed to firing on many unrelated concepts"
+            ],
+            "guid": "x~q%M`{i[j",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Geoffrey Irving (2022)<br>",
+                "<div>Employment:<span><span><br></span></span></div><div><a class=\"TagHoverPreview-link\" href=\"https://www.lesswrong.com/tag/agent-foundations\"><span><span><span><a href=\"https://www.deepmind.com/\"><u>DeepMind</u></a></span></span></span></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div>debate as an alignment strategy: more <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/bLr68nrLSwgzqLpzu/axrp-episode-16-preparing-for-debate-ai-with-geoffrey-irving\"><u>detail here</u></a></span></span>.<div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+            ],
+            "guid": "klmjAl0#z2",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": [
+                "Individual"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
