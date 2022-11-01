@@ -134,7 +134,7 @@
             "__type__": "Note",
             "fields": [
                 "What is Model Splintering?<br>",
-                "\"this approach seems safe in this imperfect model, but when we generalize the model more, it becomes dangerously underdefined\"<div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\"><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/k54rgSg7GcjtXnMHX/model-splintering-moving-from-one-imperfect-model-to-another-1\">Model splintering</a></span></span></a></div>"
+                "\"this approach seems safe in this imperfect model, but when we generalize the model more, it becomes dangerously underdefined\"<div><br></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\"><span><span></span></span></a><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/k54rgSg7GcjtXnMHX/model-splintering-moving-from-one-imperfect-model-to-another-1\">Model splintering</a></div>"
             ],
             "guid": "jOJTafx/ag",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -230,7 +230,7 @@
             "__type__": "Note",
             "fields": [
                 "What is S Risk?<br>",
-                "Suffering Risk (the risk that the future holds extreme levels of suffering)<br>"
+                "S risk is Suffering Risk: the risk that the future holds extreme levels of suffering<br>"
             ],
             "guid": "FpSa9yK`B*",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -326,7 +326,7 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Dylan Hadfield-Menell (2022)<br>",
-                "<div><div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"http://people.csail.mit.edu/dhm/\"><u>Dylan Hadfield-Menell</u></a></span></span></span></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span><a href=\"https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-207.pdf\"><u>Dylan's PhD thesis</u></a></span></span></span></div><div><ol><li>Outer alignment failures are a problem.</li><li>We can mitigate this problem by adding in uncertainty.</li><li>We can model this as&nbsp;<span><span><span><a href=\"https://proceedings.neurips.cc/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html\"><u>Cooperative Inverse Reinforcement Learning (CIRL)</u></a></span></span></span>.&nbsp; <br></li></ol><span><span><span></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div></div>"
+                "<div><div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span></span></span></span></a><a href=\"http://people.csail.mit.edu/dhm/\"><u>Dylan Hadfield-Menell</u></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span><a href=\"https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-207.pdf\"><u>Dylan's PhD thesis</u></a></span></span></span></div><div><ol><li>Outer alignment failures are a problem.</li><li>We can mitigate this problem by adding in uncertainty.</li><li>We can model this as&nbsp;<span><span><span><a href=\"https://proceedings.neurips.cc/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html\"><u>Cooperative Inverse Reinforcement Learning (CIRL)</u></a></span></span></span>.&nbsp; <br></li></ol><span><span><span></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div></div>"
             ],
             "guid": "dQ[l&u*NH^",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -470,7 +470,7 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Jacob Steinhardt (2022)<br>",
-                "<div><div>Employment:</div><div>UC Berkeley</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><div>robustness &amp; distribution shift</div><div>technical paper he wrote is&nbsp;<span><span><span><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=LKv32bgAAAAJ&amp;citation_for_view=LKv32bgAAAAJ:4TOpqqG69KYC\"><u>Certified defenses against adversarial examples</u></a><br></span></span></span></div>He's published several technical overviews including&nbsp;<span><span><span><a href=\"https://docs.google.com/document/d/1FbTuRvC4TFWzGYerTKpBU7FJlyvjeOvVYF2uYNFSlOc/edit#\"><u>AI Alignment Research Overview</u></a></span></span></span> and&nbsp;<span><span><span><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=LKv32bgAAAAJ&amp;citation_for_view=LKv32bgAAAAJ:kNdYIx-mwKoC\"><u>Concrete problems in AI safety</u></a></span></span></span>, and created an&nbsp;<span><span><span><a href=\"https://bounded-regret.ghost.io/ai-forecasting/\"><u>AI forecasting competition</u></a></span></span></span>. </div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><br><span><span><span></span></span></span></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
+                "<div><div>Employment:</div><div>UC Berkeley</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><div>robustness &amp; distribution shift</div><div>technical paper he wrote is&nbsp;<span><span><span><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=LKv32bgAAAAJ&amp;citation_for_view=LKv32bgAAAAJ:4TOpqqG69KYC\"><u>Certified defenses against adversarial examples</u></a><br></span></span></span></div>He's published several technical overviews including&nbsp;<span><span><span><a href=\"https://docs.google.com/document/d/1FbTuRvC4TFWzGYerTKpBU7FJlyvjeOvVYF2uYNFSlOc/edit#\"><u>AI Alignment Research Overview</u></a></span></span></span> and&nbsp;<span><span><span><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=LKv32bgAAAAJ&amp;citation_for_view=LKv32bgAAAAJ:kNdYIx-mwKoC\"><u>Concrete problems in AI safety</u></a></span></span></span>, and created an&nbsp;<span><span><span><a href=\"https://bounded-regret.ghost.io/ai-forecasting/\"><u>AI forecasting competition</u></a></span></span></span>. </div><div>Runs blog:&nbsp;<a href=\"https://bounded-regret.ghost.io/author/jacob/\">Bounded Regret</a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><br><span><span><span></span></span></span></div><div><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is#Thomas_s_Alignment_Big_Picture\">source</a></div></div>"
             ],
             "guid": "K!{dP&z>&J",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -602,7 +602,7 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Paul Christiano (2022)",
-                "<div>Employment:</div><div><div><span><span><span><a href=\"https://alignment.org/\"><u>Alignment Research Center (ARC)</u></a></span></span></span><span><span><span><br></span></span></span></div><a href=\"https://www.anthropic.com/\"></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>Interpretability - </span></span></span><span><span><span><a href=\"https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit\"><u>Eliciting Latent Knowledge</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+                "<div>Employment:</div><div><div><span><span><span><a href=\"https://alignment.org/\"><u>Alignment Research Center (ARC)</u></a></span></span></span><span><span><span><br></span></span></span></div><a href=\"https://www.anthropic.com/\"></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>Interpretability - </span></span></span><span><span><span><u><a href=\"https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit\">Eliciting Latent Knowledge (ELK)</a></u></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div>- \"Powerful AI systems have a good chance of deliberately and irreversibly disempowering humanity.\"&nbsp;<a href=\"https://www.alignmentforum.org/posts/CoZhXrhpQxpy9xw9y/where-i-agree-and-disagree-with-eliezer\">Source</a></div><div>- It's a good idea to focus on sub problems first. One of the things worth pursuing is \"low-stakes\" situations first.&nbsp;<a href=\"https://www.alignmentforum.org/posts/TPan9sQFuPP6jgEJo/low-stakes-alignment\">source</a></div><div>- - A \"good\" objective is similar to finding a \"good\" specification for adversarial training</div><div>- - finding a good objective likely requires ELK</div>"
             ],
             "guid": "nLg*sh_Gav",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -638,7 +638,7 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Dan Hendrycks (2022)<br>",
-                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"https://safe.ai/\"><u>Center for AI Safety</u></a></span></span></span>&nbsp;(CAIS)</a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>- broadening AI safety community<br></span></span></span></div><div><span><span><span>- Trojan Detection</span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span></span></span></span></a><a href=\"https://safe.ai/\"><u>Center for AI Safety</u></a>&nbsp;(CAIS)</div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><span>- broadening AI safety community<br></span></span></span></div><div><span><span><span>- Trojan Detection</span></span></span></div><div><span><span><span>- scaling laws</span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>- AI safety community should pursue broad research directions at once&nbsp;</span></span></span><a href=\"https://www.lesswrong.com/s/FaEBwhhe3otzYKGQt/p/dfRtxWcFDupfWpLQo\">source</a>&nbsp;</div><div>- Strongly against capabiliities externalities&nbsp;<a href=\"https://www.lesswrong.com/s/FaEBwhhe3otzYKGQt/p/dfRtxWcFDupfWpLQo\">source</a>&nbsp;</div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
             ],
             "guid": "g{8r?@(pVk",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -650,7 +650,7 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Stuart Russell (2022)<br>",
-                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"https://humancompatible.ai/\"><u>Center for Human Compatible AI (CHAI)</u></a></span></span></span></a></div><span><span><span>UC Berkeley</span></span></span><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div>Alignment - cooperative inverse reinforcement learning (<span><span><span><a href=\"https://arxiv.org/abs/1606.03137\"><u>CIRL</u></a></span></span></span>)</div><div> <span><span><span><a href=\"https://arxiv.org/abs/2103.03386\"><u>Clusterability in neural networks</u></a></span></span></span> - modularity<br></div><div><br></div><div><span><span><span>Views:</span></span></span></div><div>wrote the book <span><span><span><a href=\"https://en.wikipedia.org/wiki/Human_Compatible\"><u>Human Compatible</u></a></span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span></span></span></span></a><a href=\"https://humancompatible.ai/\"><u>Center for Human Compatible AI (CHAI)</u></a></div><span><span><span>UC Berkeley</span></span></span><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div>Alignment - cooperative inverse reinforcement learning (<span><span><span><a href=\"https://arxiv.org/abs/1606.03137\"><u>CIRL</u></a></span></span></span>)</div><div> <span><span><span><a href=\"https://arxiv.org/abs/2103.03386\"><u>Clusterability in neural networks</u></a></span></span></span> - modularity<br></div><div><br></div><div><span><span><span>Views:</span></span></span></div><div>wrote the book <span><span><span><a href=\"https://en.wikipedia.org/wiki/Human_Compatible\"><u>Human Compatible</u></a></span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
             ],
             "guid": "D>Q:%#0u%V",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -914,7 +914,7 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Owain Evens (2022)<br>",
-                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span><a href=\"https://truthful.ai/\"><u>Truthful AI</u></a></span></span></span></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/jWkqACmDes6SoAiyE/truthful-lms-as-a-warm-up-for-aligned-agi\"><u>Truthful LMs as a warm-up for aligned AGI</u></a></span></span> <br></div><div><span><span><span><a href=\"https://arxiv.org/abs/2109.07958\"><u>TruthfulQA: Measuring How Models Mimic Human Falsehoods</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+                "<div>Employment:</div><div><a href=\"https://www.anthropic.com/\"><span><span><span></span></span></span></a><a href=\"https://truthful.ai/\"><u>Truthful AI</u></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div><div><span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/jWkqACmDes6SoAiyE/truthful-lms-as-a-warm-up-for-aligned-agi\"><u>Truthful LMs as a warm-up for aligned AGI</u></a></span></span> <br></div><div><span><span><span><a href=\"https://arxiv.org/abs/2109.07958\"><u>TruthfulQA: Measuring How Models Mimic Human Falsehoods</u></a></span></span></span></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
             ],
             "guid": "ildrxr5Jfm",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
@@ -962,13 +962,303 @@
             "__type__": "Note",
             "fields": [
                 "Facts about Geoffrey Irving (2022)<br>",
-                "<div>Employment:<span><span><br></span></span></div><div><a class=\"TagHoverPreview-link\" href=\"https://www.lesswrong.com/tag/agent-foundations\"><span><span><span><a href=\"https://www.deepmind.com/\"><u>DeepMind</u></a></span></span></span></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div>debate as an alignment strategy: more <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/bLr68nrLSwgzqLpzu/axrp-episode-16-preparing-for-debate-ai-with-geoffrey-irving\"><u>detail here</u></a></span></span>.<div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
+                "<div>Employment:<span><span><br></span></span></div><div><a class=\"TagHoverPreview-link\" href=\"https://www.lesswrong.com/tag/agent-foundations\"><span><span><span></span></span></span></a><a href=\"https://www.deepmind.com/\"><u>DeepMind</u></a></div><div><span><span><span><br></span></span></span></div><div><span><span><span>Working on:</span></span></span></div>debate as an alignment strategy: more <span><span><a class=\"PostLinkPreviewWithPost-link\" href=\"https://www.lesswrong.com/posts/bLr68nrLSwgzqLpzu/axrp-episode-16-preparing-for-debate-ai-with-geoffrey-irving\"><u>detail here</u></a></span></span>.<div><span><span><span><br></span></span></span></div><div><span><span><span>Views:</span></span></span></div><div><span><span><span>INCOMPLETE<br></span></span></span></div><div><span><span><span><br></span></span></span></div><span><span><span>(needs source)</span></span></span>"
             ],
             "guid": "klmjAl0#z2",
             "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
             "tags": [
                 "Individual"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Phase Change duing training?",
+                "A Phase Change is when a neural net abruptly shifts during training to a more effective solution.<br>E.g. training on numerical addition shifts from memorization to generalization at some point in the training and becomes much more accurate at that point.<br><a href=\"https://www.alignmentforum.org/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking\">See: Grokking</a>"
+            ],
+            "guid": "zO&.tSxos^",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an Induction Head?",
+                "Induction heads are implemented by a circuit consisting of a pair of \nattention heads in different layers that work together to copy or \ncomplete patterns. The first attention head copies information from the \nprevious token into each token. This makes it possible for the second \nattention head to attend to tokens based on what happened before them, \nrather than their own content.<br>See: <a href=\"https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html#definition-of-induction-heads\">Induction Heads</a>&nbsp;or&nbsp;<a href=\"https://transformer-circuits.pub/2021/framework/index.html#induction-heads\">This Short Section</a>"
+            ],
+            "guid": "J7Hmn)Joiy",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Weight Decay?",
+                "Weight Decay is a regularization technique in deep learning by adding a penalty term to the cost function which has the effect of shrinking the weights during backpropagation.<br>This helps prevent the network from overfitting the training data as well as the exploding gradient problem.<br>\\(w_{new} = w_{old} - \\alpha (\\frac{\\partial w}{\\partial E}+\\lambda w_{old})\\)<br><a href=\"https://programmathically.com/weight-decay-in-neural-networks/\">Weight Decay</a><br>"
+            ],
+            "guid": "CU=38g)dfm",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the Orthogonality Thesis?",
+                "The Orthogonality Thesis asserts that there can exist arbitrarily intelligent agents pursuing any kind of goal.<br><br>The strong form of the Orthogonality Thesis says that there's no extra \ndifficulty or complication in creating an intelligent agent to pursue a \ngoal, above and beyond the computational tractability of that goal.<br><br><a href=\"https://arbital.com/p/orthogonality/\">https://arbital.com/p/orthogonality/</a>"
+            ],
+            "guid": "_o&G9f#<2",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Eliezer Yudkowsky (2022)",
+                "<div>Employment:</div><div>INCOMPLETE</div><div><br></div><div>Working on:</div><div>INCOMPLETE</div><div><br></div><div>Views:</div><div><a href=\"https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities\">source</a>&nbsp;for these:<br></div><div>- if you can get as incredibly far as \"less than roughly certain to kill everybody\", then you can probably get down to under a 5% chance with only slightly more effort</div><div>- \"AGI will not be upper-bounded by human ability or human learning speed\"</div><div>- \"<strong>A cognitive system with \nsufficiently high cognitive powers, given any medium-bandwidth channel \nof causal influence, will not find it difficult to bootstrap to \noverpowering capabilities independent of human infrastructure\"</strong></div><div><strong>- \"</strong><strong>We need to get alignment right on the 'first critical try'\"</strong></div><div><strong>- \"</strong><strong>We need to align the \nperformance of some large task, a 'pivotal act' that prevents other \npeople from building an unaligned AGI that destroys the world.\"</strong></div><div><strong>- \"</strong><strong>Many alignment problems of superintelligence will not naturally appear at pre-dangerous, passively-safe levels of capability\"</strong></div><div><strong>- \"</strong><strong>Fast capability gains seem likely, and may break lots of previous alignment-required invariants simultaneously\"</strong></div><div><strong>- \"</strong><strong>outer optimization even on a very exact, very simple loss function doesn't produce inner optimization in that direction\"</strong></div><div><strong>- \"</strong><strong>Corrigibility is anti-natural to consequentialist reasoning\"</strong></div><div><strong>- \"</strong><strong>Any system of sufficiently \nintelligent agents can probably behave as a single agent, even if you \nimagine you're playing them against each other\"</strong></div><div><strong>-&nbsp;</strong></div> <div><br></div><br>"
+            ],
+            "guid": "Kco/G#?bTd",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Inner Alignment?",
+                "Inner alignment is the degree to which the interal (typically thought of as inferred) utility function maps onto the explit utility function the agent is trained on.<br><br>A trained agent will have an approximate respresentation of the explicit utility function, which may not map exactly on that actual explicit utility function. For example, the utility function that evolution trains organisms on is generally considered \"genetic fitness\" or \"gene propagation\", yet humans (who were developed by evolution) usually don't explicitly carry the goal of propagating their genes. Instead they express proximate goals such as seeking power, influence, and happiness, which may or may not directly lead to gene propagation."
+            ],
+            "guid": "CPv%?*#HI)",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Outer Alignment?",
+                "Outer Alignment is the degree to which an agent's actions maximize the utility function they are trained on.<br><br>INCOMPLETE"
+            ],
+            "guid": "Qe&`LFf4)!",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the AI Alignment Problem?",
+                "Ensure that AI's values and actions are aligned with human values<br>Most smart agents may be misaligned by default because they may compete with us for power and resources.<br><br><a href=\"https://neurips.cc/virtual/2021/poster/28400\">Optimal Policies Tend To Seek Power</a>"
+            ],
+            "guid": "fBK2!0PTMA",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Buck Shlegeris (2022)",
+                "Employment:<br>CTO of Redwood Research<br><br>Working on:<br>EA movement building<br>...<br><br>Views:<br>- Worst case thinking is likely a beneficial attitude&nbsp;<a href=\"https://www.lesswrong.com/posts/yTvBSFrXhZfL8vr5a/worst-case-thinking-in-ai-alignment\">https://www.lesswrong.com/posts/yTvBSFrXhZfL8vr5a/worst-case-thinking-in-ai-alignment</a><br>"
+            ],
+            "guid": "zGJLvE%3I~",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facts about Nate Soares (2022)",
+                "Employment:<br>Executive Director at MIRI<br><br>Working on:<br><br><br>Views:<br>- \"the hard bits are much more technical than moral\"&nbsp;<a href=\"https://www.alignmentforum.org/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization\">source</a><br>-&nbsp;<br><br><br>"
+            ],
+            "guid": "fB;(hx&MoV",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Goal Misgeneralization?",
+                "Goal Misgeneralization is when an agent is capable, but optimizing for the wrong reward during distributional shift.<br>E.g. a bot is trained to collect a coin, but the coin is always in the same place during training. The, once deployed and the coin has moved, the bot just goes to the place where the coin usually is. The bot is acting capably, but has not generalized the goal properly.<br><a href=\"https://arxiv.org/abs/2105.14111\">source</a>"
+            ],
+            "guid": "Q/8.Vu|Fa,",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - CID",
+                "CID is Causal Inference Diagram <a href=\"https://www.lesswrong.com/posts/XxX2CAoFskuQNkBDy/discovering-agents\">source</a>"
+            ],
+            "guid": "xV#_RuFl47",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Causal Inference Diagram (CID)?",
+                "A Causal Inference Diagram is a unified theory of how design decisions create incentives that shape agent behavior.<br>A CID represents decisions, states, and utilities of a markov decision process in order to formalize the causal chain of events.<br>It takes the form of a flowchart where Decisions are generally squares, States are circles or rounded squares, and Utilities are diamonds. Different subgraphs can be colored differently to represent connections between individual actors and their utilities.<br><a href=\"https://deepmindsafetyresearch.medium.com/progress-on-causal-influence-diagrams-a7a32180b0d1#b09d\">source</a><br><br>For explansion on CID, please see&nbsp;<a href=\"https://www.lesswrong.com/posts/XxX2CAoFskuQNkBDy/discovering-agents\">Mechanised Causal Graphs</a>&nbsp;which expands on this model."
+            ],
+            "guid": "j!42h2f_v_",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Mechanised Causal Graph?",
+                "A Mechanised Causal Graph is a variant of&nbsp; <a href=\"https://drive.google.com/file/d/1_OBLw9u29FrqROsLfhO6rIaWGK4xJ3il/view\">mechanised causal game</a> graph used to facilitate better formalization of Causal Inference Diagrams (CID).<br>The Mechanised Causal Graph adds mechanism nodes to each node in the CID (generally denoted by a new node with a tilda above a letter matching the CID node the mechanism node is attached to) and directed edges (generally dotted lines while the original CID edges are solid) which depict the mechanistic dependencies. These mechanistic dependencies are of 2 types: terminal and non-terminal. Terminal dependencies are dependencies which connect utilities to their decisions directly, while non-terminal dependencies are dependencies which only exist insofar as they effect the causal path towards the utility.<br><br>For instance, take the following CID:<br>A[decision] -&gt; B[state] -&gt; C[utility]<br>Where A and C are colored the same implying that C is the utility resultant from decision A.<br>The Mechanised Causal Graph would be the following:<br>A' &lt;- - B'&nbsp; &nbsp; &nbsp; &nbsp;C' - - - &gt; A' (this A' is same as A' earlier on this line, this is just simpler)<br>|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br>A ----&gt; B ---&gt; C<br>The dotted line C' - - - &gt; A' is a terminal edge because C is the payoff to A, and no matter what will always be a causal factor in A, thus attached to A'<br>Yet dotted line B' - - - &gt; A' is not terminal, because if the solid line B ---&gt; C is severed, A' no longer needs to be informed by B. This is equivalent to saying that decision A only cares about state B insofar as it effects payout C. Decision A will always care about payout C, thus that mechanistic dependencies is terminal, even though the mechanistic dependency between A and B is not.<br><br><a href=\"https://www.lesswrong.com/posts/XxX2CAoFskuQNkBDy/discovering-agents\">source</a>"
+            ],
+            "guid": "zA2ol5yZcf",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Treacherous Turn?",
+                "A Treacherous Turn is a situation where training produces a consequentialist agent sophisticated enough to understand that it needs to perform well during training in order to avoid a negative reward. After deployment, when the agent is safe from futher negative rewards, it no longer acts in a restrained manner.<br>(coined by Nick Bostrom in Superintelligence: Chapter 8)<br><br><a href=\"https://www.lesswrong.com/posts/B39GNTsN3HocW8KFo/superintelligence-11-the-treacherous-turn\">source</a><br><br>"
+            ],
+            "guid": "Mrzn_m9][z",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - SDP",
+                "SDP means semidefinite program"
+            ],
+            "guid": "JqQi=^VjN5",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acrynym - L-BFGS",
+                "L-BFGS (or LM-BFGS) is Limited-memory BFGS -&nbsp;<a href=\"https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm\">Broyden–Fletcher–Goldfarb–Shanno algorithm</a>"
+            ],
+            "guid": "fo;~:y5s`3",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Limited-memory BFGS?",
+                "L-BFGS is a limited-memory version of the&nbsp;&nbsp;<a href=\"https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm\">Broyden–Fletcher–Goldfarb–Shanno algorithm</a>&nbsp;(which uses arbitraty computer memory). It is used to find an input x that minimizes a networks output f(x).<br><a href=\"https://en.wikipedia.org/wiki/Limited-memory_BFGS\">source</a>"
+            ],
+            "guid": "E-QZ5863`s",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - AC-GAN",
+                "AC-GAN is Auxiliary Classifier Generative Adversarial Network"
+            ],
+            "guid": "bbb]CDj1Ia",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(L_0\\),&nbsp;\\(L_1\\),&nbsp;\\(L_2\\),&nbsp;\\(\\dots\\),&nbsp;\\(L_\\infty\\)&nbsp;norms",
+                "L-norms measure a type of length. In machine learning, generally applied to a vector.<br>For example set vector&nbsp;\\({\\bf X} = \\{0, 1, 2, {-3}\\}\\)<br>Then the&nbsp;\\(L_n\\)&nbsp;norm is definied as follows (let&nbsp;\\(0^0=0\\)&nbsp;for calculation purposes):<br>\\(L_n = ||{\\bf X}||_n = \\sqrt[n]{|0|^n+|1|^n+|2|^n+|{-3}|^n}\\)<br>\\(L_0\\)&nbsp;norm:&nbsp;\\(||{\\bf X}||_0 = 0+1+1+1 = 3\\), which is the number of non-zero elements in the vector<br>\\(L_1\\)&nbsp;norm:&nbsp;\\(||{\\bf X}||_1 = 0+1+2+3 = 6\\), which is the sum of magnitudes of elements in the vector<br>\\(L_2\\)&nbsp;norm:&nbsp;\\(||{\\bf X}||_2 = \\sqrt{0+1+4+9} = \\sqrt{15}\\), which is the square-root of the sum of squares of elements in the vector. This is the most common norm. If there is no subscript, this is most likely what is indicated by&nbsp;\\(||{\\bf X}||\\). It is also called the euclidian distance (think of calculating the length of the hypotenuse of a right triangle)<br>\\(L_\\infty\\)&nbsp;norm:&nbsp;\\(||{\\bf X}||_\\infty = max(\\{|0|, |1|, |2|, |-3|\\}) = 3\\), which is the magnitude of the largest element of&nbsp;\\({\\bf X}\\).<br><a href=\"https://montjoile.medium.com/l0-norm-l1-norm-l2-norm-l-infinity-norm-7a7d18a4f40c\">source</a>"
+            ],
+            "guid": "MejZ9Sf$5)",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - GAN",
+                "Generative Adversarial Network"
+            ],
+            "guid": "vqyYeOr}6[",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a Generative Adversarial Network (GAN)?",
+                "A GAN is a methodology to create a discriminator that reliably detects fake images and a generator that makes convincingly real images. Thus, a GAN is composed of a generator and descriminator. The generator maps noise to a synthetic image. While the discriminator receives the image and distinguishes if the image is real or generated.<br><a href=\"https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/\">source</a>"
+            ],
+            "guid": "HBC_zphUT~",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(argmax\\)",
+                "The operator argmax returns the value in some domain that gives the largest evaluation to the arguments passed to argmax. The variable or domain that argmax searchers over is generally placed directly under&nbsp;\\(argmax\\).<br>Example:<br>let&nbsp;\\(a \\in A\\)<br>some function&nbsp;\\(F: A \\rightarrow \\mathbb{R}\\)<br>\\(\\underset{a}{argmax}(F(a)) = a^*\\)<br>Thus,&nbsp;\\(a^* \\in A\\)&nbsp;that returns the largest value when passed to&nbsp;\\(F\\)<br>Sometimes, the same equation will be notated:<br>\\(\\underset{A}{argmax}(F) = a^*\\)<br>in the case that it is obvious that&nbsp;\\(F\\)&nbsp;is a function that receives arguments from&nbsp;\\(A\\)."
+            ],
+            "guid": "t-/5A+GS=K",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(\\theta\\)&nbsp;(theta)",
+                "In machine learning,&nbsp;\\(\\theta\\)&nbsp;generally refers to the set of parameters in a model. For a convolutional neural network,&nbsp;\\(\\theta\\)&nbsp;is the set of weights and biases."
+            ],
+            "guid": "p3nkl`.uTC",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Acronym - ReLU",
+                "Rectified Linear Unit"
+            ],
+            "guid": "5:zhzHtQI",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(ReLU\\)&nbsp;(rectified linear unit)",
+                "\\(ReLU(x) = max(0, x)\\)<br>Let&nbsp;\\({\\bf X} = \\{x_0, x_1, \\dots, x_n\\}\\)<br>\\(ReLU({\\bf X}) = \\{ ReLU(x_0), ReLU(x_1), \\dots, ReLU(x_n)\\}\\)"
+            ],
+            "guid": "EOa>NWO]2-",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(F({\\bf X})\\)&nbsp;(applying&nbsp;\\(F\\)&nbsp;to&nbsp;a vector/matrix)",
+                "Applying a function&nbsp;\\(F\\)&nbsp;to a matrix is different depending on the function.<br>If&nbsp;\\(F\\)&nbsp;is a function from&nbsp;\\(\\mathbb{R} \\rightarrow \\mathbb{R}\\), then applying&nbsp;\\(F\\)&nbsp;to a matrix would just apply&nbsp;\\(F\\)&nbsp;element-wise.<br>But if&nbsp;\\(F\\)&nbsp;is a function from&nbsp;\\(\\mathbb{R}^{n\\times m} \\rightarrow \\mathbb{R}\\), then&nbsp;\\(F\\)&nbsp;will be applied to the matrix as a whole.<br>In general, it's important to keep in mind what the domain of each function is when analysizing, but understand that functions may be applied element-wise when it is a function from the domain of reals."
+            ],
+            "guid": "GX|>PFKK3S",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(\\Bbb E\\)",
+                "\\(\\Bbb E\\)&nbsp;represents expected value.<br>It is a function which applies to an expression usually over some domain and it represents what is the mean return of the expression when evaluated across the given domain.<br>\\(\\Bbb{E}_{a\\in A}(F(a))\\)&nbsp;is generally the unweighted average return of&nbsp;\\(F\\)&nbsp;when given all the different elements of&nbsp;\\(A\\)<br>\\(\\Bbb E\\)&nbsp;can be evaluated over multiple domains simultaneously:<br>\\(\\Bbb{E}_{a\\in A, b\\in B}(F(a, b))\\)<br>\\(\\Bbb{E}\\)&nbsp;can be evaluated non-uniformly over some domain. Let&nbsp;\\(\\rho\\)&nbsp;be a probability distribution.<br>\\(\\Bbb{E}_{x\\sim\\rho}(F(x))\\)&nbsp;is the average return of&nbsp;\\(F\\)&nbsp;when given all different values of&nbsp;\\(x\\)&nbsp;and weighted by its probability in&nbsp;\\(\\rho\\)<br>"
+            ],
+            "guid": "y6t_&n3pCT",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Notation -&nbsp;\\(\\varpropto\\)",
+                "\\(x \\varpropto y\\)&nbsp;means&nbsp;\\(x\\)&nbsp;is proportional to&nbsp;\\(y\\)"
+            ],
+            "guid": "y?PI`*]/N`",
+            "note_model_uuid": "03abfc49-4679-11ed-ad40-00248c528cf7",
+            "tags": []
         }
     ],
     "reviewLimit": null,
